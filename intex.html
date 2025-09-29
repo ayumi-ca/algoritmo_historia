@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Aventura das Duas Portas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aventura das Duas Portas</h1>
+    <div id="story">
+      <p>Você acorda em uma sala escura, iluminada apenas por tochas nas paredes. Diante de você, há duas portas antigas: uma à esquerda, com inscrições misteriosas, e outra à direita, com um leve som de água corrente.</p>
+      <button class="choice-button" onclick="escolherPorta('esquerda')">Entrar na porta da esquerda</button>
+      <button class="choice-button" onclick="escolherPorta('direita')">Entrar na porta da direita</button>
+    </div>
+    <button id="return-button" class="choice-button" onclick="reiniciar()">🔁 Retornar ao início</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

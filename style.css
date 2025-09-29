@@ -1,0 +1,41 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #1e1e2f;
+  color: #fff;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #2e2e40;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.choice-button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5a5aff;
+  color: white;
+  cursor: pointer;
+}
+
+.choice-button:hover {
+  background-color: #4040cc;
+}
+
+#return-button {
+  display: none;
+  margin-top: 30px;
+  background-color: #ff5a5a;
+}
+
+h1, h2 {
+  color: #ffa500;
+}
